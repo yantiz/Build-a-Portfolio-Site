@@ -3,7 +3,7 @@
 }
 
 [class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
+  font-family: "zocial", sans-serif;
 }
 
 body {
@@ -37,9 +37,6 @@ body {
 
 .col-titles {
   width: 90%;
-}
-
-.titles {
   text-align: right;
 }
 
@@ -62,7 +59,7 @@ hr {
   width: 100%;
 }
 
-.large_pic {
+.large-pic {
   height: 30vw;
 }
 
@@ -89,39 +86,42 @@ a {
   text-decoration: none;
   font-size: 0.7em;
 }
-
-.col-pic1 {
-  width: 30%;
-}
-
-.col-pic2 {
-  width: 30%;
-}
-
+.col-pic1,
+.col-pic2,
 .col-pic3 {
+  text-align: center;
   width: 30%;
 }
 
-.small_pic {
+.small-pic {
   height: 15vw;
 }
 
+p {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
 @media screen and (max-width: 800px) {
-  .col-pic1, .col-pic2, .col-pic3 {
+  .col-pic1,
+  .col-pic2,
+  .col-pic3 {
     width: 45%;
   }
 
-  .small_pic {
+  .small-pic {
     height: 20vw;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .col-pic1, .col-pic2, .col-pic3 {
+  .col-pic1,
+  .col-pic2,
+  .col-pic3 {
     width: 90%;
   }
 
-  .small_pic {
+  .small-pic {
     height: 25vw;
   }
 
