@@ -40,7 +40,12 @@ body {
   text-align: right;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -63,10 +68,6 @@ hr {
   height: 30vw;
 }
 
-footer > div {
-  text-align: center;
-}
-
 .feature {
   color: #7d97ad;
   margin-top: 1em;
@@ -86,6 +87,7 @@ a {
   text-decoration: none;
   font-size: 0.7em;
 }
+
 .col-pic1,
 .col-pic2,
 .col-pic3 {
