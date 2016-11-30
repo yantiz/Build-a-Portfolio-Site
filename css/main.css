@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 10px 20px;
+  font-size: 16px;
+}
+
+.grid {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.zocial-appstore {
+  text-shadow: 3px 3px 5px black;
+  font-size: 3.5em;
+  color: #02b3e4;
+}
+
+.col-logo {
+  width: 10%;
+}
+
+.col-titles {
+  width: 90%;
+}
+
+.titles {
+  text-align: right;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+hr {
+  background-color: #7d97ad;;
+  margin: 1em 0;
+  height: 0.2em;
+  border: none;
+}
+
+.col-main {
+  width: 100%;
+}
+
+.large_pic {
+  height: 30vw;
+}
+
+footer > div {
+  text-align: center;
+}
+
+.feature {
+  color: #7d97ad;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+}
+
+.topic, a {
+  color: #2d3c49;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.7em;
+}
+
+.col-pic1 {
+  width: 30%;
+}
+
+.col-pic2 {
+  width: 30%;
+}
+
+.col-pic3 {
+  width: 30%;
+}
+
+.small_pic {
+  height: 15vw;
+}
+
+@media screen and (max-width: 800px) {
+  .col-pic1, .col-pic2, .col-pic3 {
+    width: 45%;
+  }
+
+  .small_pic {
+    height: 20vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .col-pic1, .col-pic2, .col-pic3 {
+    width: 90%;
+  }
+
+  .small_pic {
+    height: 25vw;
+  }
+
+  .row {
+    justify-content: center;
+  }
+}
